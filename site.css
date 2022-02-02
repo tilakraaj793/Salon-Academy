@@ -1,0 +1,724 @@
+*
+{
+margin:0;
+padding:0;
+box-sizing:border-box;
+transition:all ease 1s;
+}
+
+.menulogo
+{
+    width: 100%;
+    float: left;
+    padding: 20px 20px 20px 10px;
+    
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #94347e;
+    text-align: center;
+    padding: 14px 16px;
+    
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #190343;
+    color: #94347e;
+    font-weight: 600;
+    text-decoration: none;
+    
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: #190343;
+    color: #94347e;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+
+  .topnav
+  {
+      padding-top: 15px;
+  }
+
+  .banner
+  {
+    width:100%;
+    float: left;
+  }
+
+  .aboutus
+  {
+    width: 100%;
+    float: left;
+  }
+
+  .abouthead
+  {
+    width: 100%;
+    float: left;
+    text-align: center;
+  }
+  
+  .aboutpara
+  {
+    width: 100%;
+    float: left;
+  }
+
+  .aboutpara p{
+    color:#666;
+font-family:open sans;
+font-size:14px;
+font-weight:400;
+line-height: 25px;
+  }
+
+  .aboutimg
+  {
+    width: 100%;
+    float: left;
+  }
+
+  .aboutimg img
+  {
+    width:100%;
+  }
+  
+  h1
+  {
+    color: #94347E;
+    font-family: Playfair Display;
+    font-weight: 800;
+    font-size: 49px;
+    text-transform: capitalize;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+
+  h4
+  {
+    color: #94347E;
+    font-family: Playfair Display;
+    font-weight: 800;
+    font-size: 49px;
+    text-transform: capitalize;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .pickint
+  {
+    width:100%;
+    float:left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+    margin-top:50px;
+    margin-bottom: 50px;
+  
+  }
+
+ 
+  .pickint img
+  {
+    width: 100%;
+  }
+
+  .pickhead
+  {
+    width:100%;
+    float: left;
+    background-color: rgb(153, 153, 153);
+    padding-top: 35px;
+  }
+
+  .pickpara
+  {
+    width:100%;
+    float: left;
+    background-color: rgb(153, 153, 153);
+    padding: 15px 25px 15px 25px;
+  }
+
+  .pickpara p{
+    color:#fff;
+font-family:open sans;
+font-size:20px;
+font-weight:400;
+line-height: 30px;
+  }
+
+  .contactus
+  {
+    width:100%;
+    float: left;
+  }
+  .contact
+  {
+    width:100%;
+    float: left;
+    
+  position: relative;
+  }
+
+  .contact img
+  {
+    width:100%;
+  }
+
+  .overlay
+  {
+    width:100%;
+    position: absolute;
+    left:50%;
+    top: 10%;
+    transform: translate(-50%,-20%);
+    padding-top:190px;
+    color:#fff;
+    text-align: center;
+  }
+
+
+  
+  .overlay i{
+    color:#998675;
+    font-weight: 600;
+    font-size: 50px;
+  }
+
+  .overlay p{
+    line-height: 1.5;
+    font-size: 19px;
+    color:#fff;
+    font-weight: 600;
+    padding-top: 10px;
+  }
+ 
+  .contactmap
+  {
+    width: 100%;
+    float: left;
+  }
+
+  .form
+  {
+    width:100%;
+    float: left;
+    padding-top:50px ;
+  }
+
+  .fromimg
+  {
+    width: 100%;
+    float: left;
+    position: relative;
+  }
+
+  .fromimg img 
+  {
+    width:100%;
+  }
+
+  .inrTouch
+  {
+    width:100%;
+    position: absolute;
+    left:50%;
+    top:0;
+transform:translate(-50%,0);
+  }
+
+  .inputdesgin
+  {
+    width:100%;
+    float:left;
+    color:#fff;
+    font-weight: 600;
+    padding:10px 50px 50px 50px;
+  }
+
+  .inputdesgin input
+{
+width:100%;
+border-radius:0;
+padding:14px 20px;
+}
+
+.inputdesgin input
+{
+width:100%;
+padding:8px 20px;
+font-family:roboto;
+font-size:15px;
+border-radius:5px;
+
+}
+
+ .formbutton{
+      color: #fff;
+      background-color: #94347e;
+    text-align: center;
+    font-size: 17px;
+    border:none;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+  }
+  
+  .formbutton:hover{
+    background-color: #190343;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    
+  }
+
+  .redmention
+        {
+            color:red;
+            font-size: 12px;
+            display:inherit;
+        }
+
+  .courseshead
+  {
+    width:100%;
+    float:left;
+  }
+
+  .courseimg
+  {
+    width:100%;
+    float:left;
+  }
+
+  .courseimg img{
+    width: 100%;
+  }
+  
+  .course1
+  {
+    width:100%;
+    float:left;
+    padding-top: 50px;
+  }
+
+  .coursbutton
+  {
+    text-align: center;
+    padding-bottom: 40px;
+  }
+  
+  .course1 .row
+  {
+    padding: 30px 30px 30px 30px;
+  }
+
+  .courseshead p
+  {
+    color: #333333;
+font-size: 17px;
+font-weight: 600;
+line-height: 1.7em;
+font-weight:bold;
+animation: animate 1.5s linear infinite;
+text-align: left;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0.7;
+    color: #94347e;
+    font-weight: bold;
+  }
+
+  50% {
+    opacity: 0.7;
+    color: #190343;
+    font-weight: bold;
+  }
+
+  100% {
+    opacity: 0.7;
+    color: #333;
+    font-weight: bold;
+  }
+}
+
+.footer
+{
+  width:100%;
+  float:left;
+  background-image: linear-gradient(to right, #190343 , #94347e);
+  text-align: center;
+  margin-top: 40px;
+}
+
+.futrimg
+{
+  width:100%;
+  float: left;
+  padding-top: 40px;
+  text-align: center;
+}
+
+
+
+.futrimg h2
+{
+  color:#fff;
+  font-family: Playfair Display;
+    font-weight: 600;
+    font-size: 39px;
+    text-transform: capitalize;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.follow
+{
+  widows: 100%;
+  float: left;
+  padding-top:40px;
+  text-align: center;
+  padding-left: 70px;
+}
+
+.follow h3{
+  color:#fff;
+  font-family: Playfair Display;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.frticon
+{
+width:100%;
+float:left;                                        
+}
+.frticon ul{
+list-style:none;
+}
+.frticon ul li{
+display:inline-block;
+}
+.frticon ul li a
+{
+text-decoration:none;
+color:#333;
+width:45px;
+height:45px;
+font-family:roboto;
+display:inline-block;
+text-align:center;
+margin-top:8px;
+margin-left:10px;
+position:relative;
+border-radius:50%;
+background:#FFF;
+}
+.frticon ul li a i
+{
+position:absolute;
+left:50%;
+top:50%;
+transform:translate(-50%,-50%);
+}
+
+.frticon p{
+  color:#fff;
+}
+
+.frticon ul li a i
+{
+  font-size: 30px;
+  transition:all ease 0s;
+}
+.fb:hover{
+background:#0956b5;
+border-radius:50px;
+color:#fff;
+transition:all ease 0s;
+}
+.tw:hover{
+background-image: linear-gradient(to right, #fdc25c , #c4309e);
+border-radius:50px;
+color:#fff;
+transition:all ease 0s;
+}
+
+.ph:hover{
+  background:#2edd54;
+  border-radius:50px;
+  color:#fff;
+  transition:all ease 0s;
+  }
+  .messge:hover{
+  background-image: linear-gradient(to right, #fabc05 , #c6211f);
+  border-radius:50px;
+  color:#fff;
+  transition:all ease 0s;
+  }
+
+
+.soicalicon
+{
+width:100%;
+float:left;
+padding-top: 40px;
+}
+
+.futrcontact
+{
+  widows: 100%;
+  float: left;
+  padding-top:40px;
+  text-align: center;
+}
+
+.futrcontact h3{
+  color:#fff;
+  font-family: Playfair Display;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.maptext h3{
+  color:#fff;
+  font-family: Playfair Display;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.maptext
+{
+  width: 100%;
+  float: left;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.maptext p{
+  color:#fff;
+}
+
+.maptext iframe
+{
+  width: 100%;
+}
+
+.copyright
+{
+  width:100%;
+  float: left;
+  padding:30px 10px 10px 10px;
+}
+
+.copyrighttext
+{
+  width: 100%;
+  float: left;
+  color: #333;
+  text-align: center;
+}
+
+
+
+/*About page css start*/
+
+.aboutbner
+{
+  width:100%;
+  float: left;
+  margin-top: 50px;
+  
+}
+
+.aboutbner img{
+  width:100%;
+}
+
+.counters
+{
+  width:100%;
+  float: left;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom:30px ;
+}
+
+.counternum
+
+{
+  width:100%;
+  float: left;
+}
+
+.counter
+{
+  font-size: 55px;
+  color:#94347e;
+  font-weight: 800;
+}
+
+.counternum p
+{
+  font-size: 20px;
+  color:#333;
+  font-weight: 500;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*contact us code*/
+
+.contactbanr
+{
+  width:100;
+  float: left;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.contactbanr img{
+  width:100%;
+}
+
+.workus
+{
+  width:100%;
+  float:left;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.workustext
+{
+  width: 100%;
+  float: left;
+}
+
+.workustext p
+{
+  color:#333;
+  font-size: 20px;
+  font-family: playfair display;
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+.carousel-inner .carousel-item-right.active,
+.carousel-inner .carousel-item-next {
+  transform: translateX(25%);
+}
+
+.carousel-inner .carousel-item-left.active, 
+.carousel-inner .carousel-item-prev {
+  transform: translateX(-25%);
+}
+  
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{ 
+  transform: translateX(0);
+  
+}
+
+.sliderimg
+{
+  width: 100%;
+  float: left;
+}
+
+.imggal
+{
+  width: 100%;
+  float: left;
+}
+
+.imggal .col-sm-4 img
+{
+  width:100%;
+  padding: 10px 10px 10px 10px;
+}
+
+.imggal .col-sm-8 img
+{
+  width:100%;
+  padding: 10px 10px 10px 10px;
+}
+
+.imggal .col-sm-12 img
+{
+  width:100%;
+  padding: 10px 10px 10px 10px;
+}
+
+.imggal .col-sm-4 video
+{
+  width:100%;
+  padding: 10px 10px 10px 10px;
+  height: 400px;
+}
+
+.courshead
+{
+  width: 100%;
+  float: left;
+}
+
+.couselist
+{
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+
+.courses
+{
+  width: 100%;
+  float: left;
+  background-color: #939393;
+}
+
+.courses .courseimg
+{
+  padding-top: 15px;
+}
+
+.courses .col-sm-4
+{
+  background-color: #fff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.courses .col-sm-4:hover
+{
+filter:drop-shadow(5px 5px 10px black);
+}
+
+.cntr:hover
+{
+filter:none
+}

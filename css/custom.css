@@ -1,0 +1,22 @@
+.container, .col-sm-1,.col-sm-2,.col-sm-8,.col-sm-12,.col-sm-10
+{
+border:1px solid red;
+}
+
+.form-control2
+{
+width: 100%;
+
+border: 1px solid #ccc;
+
+border-radius: 2px;
+
+padding: 7px 5px;
+
+display: block;
+}
+
+.form-control2:focus
+{
+box-shadow: 0px 0px 3px rgba(116,158,198,0.2);
+}
